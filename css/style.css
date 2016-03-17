@@ -1,0 +1,35 @@
+#ControleDiv {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#BtnLeft {
+float: left;
+}
+
+#BtnRight {
+    float: right;
+}
+
+#BtnUp {
+      display: block;
+  margin: 0 auto;
+}
+
+#BtnDown {
+  display: block;
+  margin: 0 auto;
+}
+
+.maindiv{
+  float: left;
+}

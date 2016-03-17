@@ -1,0 +1,14 @@
+Modules to install!!
+
+npm install request
+npm install fs
+npm install express --save
+npm install body-parser --save
+npm install underscore --save
+npm install sqlite3 --save
+
+
+
+bower install ng-maps --save
+npm install bower --save
+npm install nodegit --save
