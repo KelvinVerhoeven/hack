@@ -1,0 +1,36 @@
+{
+  "name": "hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "request": "^2.69.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "async": "^0.9.0",
+    "underscore":"latest",
+    "sqlite3":"latest",
+    "bower":"latest",
+    "nodegit":"latest"
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan2266/hack.git"
+  },
+  "keywords": [
+    "zerofucksgiven"
+  ],
+  "author": "noobs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan2266/hack/issues"
+  },
+  "homepage": "https://github.com/jonathan2266/hack#readme"
+}
