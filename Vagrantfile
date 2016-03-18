@@ -67,11 +67,14 @@ Vagrant.configure(2) do |config|
      config.vm.provision "shell", inline: <<-SHELL
      sudo apt-get update
 	 sudo apt-get node
+	 sudo apt-get npm
 	 wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 	 sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 	 sudo apt-get update
 	 sudo apt-get install jenkins
 	 nohup java -jar jenkins.war > JENKINS 2>&1
+	 sudo apt-get update
+	 sudo apt-get install git
 
    SHELL
 end
